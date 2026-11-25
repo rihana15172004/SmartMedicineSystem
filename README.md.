@@ -1,0 +1,160 @@
+Smart Medicine Reminder & Prescription Management System
+
+📌 Project Overview
+
+The Smart Medicine Reminder & Prescription Management System is a full-stack web application designed to help users manage their medicines, set medication reminders, and maintain prescription records.
+
+The system allows users to register, log in, add medicines, view their medicine lists, manage reminders, upload and manage prescriptions, and maintain their profile.
+
+The main aim of this project is to improve medication management and help users follow their prescribed medication schedules on time.
+
+🎯 Objectives
+
+* To help users manage their daily medicines.
+* To provide timely medicine reminders.
+* To maintain prescription records digitally.
+* To reduce the chances of missing medication schedules.
+* To provide a simple and user-friendly interface.
+* To securely manage user information.
+
+✨ Features
+
+* User Registration: Create a new user account.
+* User Login: Securely access the application.
+* Dashboard: View medicine management information.
+* Add Medicine: Add medicine name, dosage, and schedule.
+* My Medicines: View and manage added medicines.
+* Reminders: Manage medicine reminder schedules.
+* Prescriptions: Maintain prescription records.
+* My Profile: View and manage user profile details.
+* Logout: Securely log out of the application.
+
+🛠️ Technologies Used
+
+Frontend
+
+* React.js
+* HTML5
+* CSS3
+* JavaScript
+
+Backend
+
+* Node.js
+* Express.js
+
+Database
+
+* MongoDB
+* Mongoose
+
+Development Tools
+
+* Visual Studio Code
+* Postman
+* npm
+* Web Browser
+
+💻 System Requirements
+
+Hardware Requirements
+
+* Processor: Intel Core i3 or above.
+* RAM: Minimum 4 GB.
+* Hard Disk: Minimum 500 MB free space.
+
+Software Requirements
+
+* Operating System: Windows 10/11.
+* Node.js.
+* MongoDB.
+* Visual Studio Code.
+* Web Browser.
+
+📂 Project Structure
+
+SmartMedicineSystem/
+│
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── index.js
+│   ├── package.json
+│   └── package-lock.json
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── package-lock.json
+│
+└── README.md
+
+⚙️ Installation and Execution
+
+1. Clone the Repository
+
+git clone https://github.com/rihana15172004/SmartMedicineSystem.git
+
+2. Open the Project Folder
+
+cd SmartMedicineSystem
+
+3. Start the Backend
+
+cd backend
+npm install
+node index.js
+
+The backend server runs at:
+
+http://localhost:5000
+
+4. Start the Frontend
+
+Open another terminal:
+
+cd frontend
+npm install
+npm start
+
+If the project uses Vite, run:
+
+npm run dev
+
+Open the frontend URL displayed in the terminal.
+
+5. Database Configuration
+
+Make sure MongoDB is running and configure the database connection in the backend environment settings.
+
+Example MongoDB connection:
+
+mongodb://127.0.0.1:27017/smartMedicineDB
+
+🔄 Working Process
+
+1. Users register and log in to the application.
+2. Users access the dashboard.
+3. Users add their medicine details.
+4. Added medicines are displayed in the My Medicines section.
+5. Users manage their medicine reminders.
+6. Users maintain their prescription records.
+7. Users can view and update their profile information.
+
+🚀 Future Enhancements
+
+* Automatic medicine notifications.
+* Email and SMS reminders.
+* Medicine stock and refill alerts.
+* Doctor appointment integration.
+* Mobile application support.
+* Advanced prescription management.
+
+👩‍💻 Developed By
+
+Rihana Banu A.
+
+📜 License
+
+This project is developed for academic and educational purposes.
